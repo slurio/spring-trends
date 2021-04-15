@@ -12,7 +12,13 @@ function App() {
         <Article>
           <HeaderContainer>
             <Header>7 Spring Fashion Trends That Are Bringing Joy Back To Dressing</Header>
-            <Paragraph>With vaccine rollouts bringing about a more optimistic horizon, we’re seeing these spring collections with a newfound sense of excitement.</Paragraph>     
+            <Paragraph>With vaccine rollouts bringing about a more optimistic horizon, we’re seeing these spring collections with a newfound sense of excitement.</Paragraph>
+            <Author>
+              <span>Eliza Huber</span>
+            </Author>
+            <Modified>
+              <span>Last Updated April 13, 2021, 5:00 AM</span>
+            </Modified>     
           </HeaderContainer>
         </Article>
     </>
@@ -59,4 +65,20 @@ const Paragraph = styled.p`
   line-height: 1.5em;
   padding: 0 60px;
   font-weight: 300;
+`
+
+const Author = styled.div`
+  color: #fff;
+  font-family: Brown Regular,sans-serif;
+  margin: 15px 15px 2px;
+  font-size: 12px;
+  letter-spacing: .1em;
+  line-height: 1.4em;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+`
+
+const Modified = styled(Author)`
+  margin: 2px 15px 15px;  
 `
