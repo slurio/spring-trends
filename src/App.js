@@ -11,7 +11,8 @@ function App() {
         <Image src='https://www.refinery29.com/images/10415994.jpg?format=webp&width=1220&height=458&quality=85&crop=8%3A3'></Image>
         <Article>
           <HeaderContainer>
-            <Header>7 Spring Fashion Trends That Are Bringing Joy Back To Dressing</Header>     
+            <Header>7 Spring Fashion Trends That Are Bringing Joy Back To Dressing</Header>
+            <Paragraph>With vaccine rollouts bringing about a more optimistic horizon, we’re seeing these spring collections with a newfound sense of excitement.</Paragraph>     
           </HeaderContainer>
         </Article>
     </>
@@ -47,4 +48,15 @@ const Header = styled.h1`
   padding: 0 30px;
   text-align: center;
   margin-top: 0;
+`
+
+const Paragraph = styled.p`
+  font-family: Brown Light, arial light, helvetica light, sans-serif light;
+  font-size: 27px;
+  color: #dbff43;
+  word-spacing: normal;
+  letter-spacing: -.02em;
+  line-height: 1.5em;
+  padding: 0 60px;
+  font-weight: 300;
 `
