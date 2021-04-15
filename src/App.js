@@ -18,7 +18,8 @@ function App() {
             </Author>
             <Modified>
               <span>Last Updated April 13, 2021, 5:00 AM</span>
-            </Modified>     
+            </Modified>
+            <SquigglyLine src='https://www.refinery29.com/images/9829457.png' alt='Squiggly Line'/>     
           </HeaderContainer>
         </Article>
     </>
@@ -81,4 +82,10 @@ const Author = styled.div`
 
 const Modified = styled(Author)`
   margin: 2px 15px 15px;  
+`
+
+const SquigglyLine = styled.img`
+  margin: 10px auto 0;
+  text-align: center;
+  max-width: 400px;
 `
