@@ -41,6 +41,19 @@ function App() {
                 <Ad></Ad>
               </SectionAd>
             </SectionAdContainer>
+            <ImageSectionContainer>
+              <SectionRevealContainer>
+                <FullReveal>
+                  <RevealImageLandscape>
+                    <RevealFixedWrap>
+                      <RevealFixed>
+                        <LandscapeImage src='https://www.refinery29.com/images/10414847.jpg' alt='Black background with gray letters that says "power shoulders.'/>
+                      </RevealFixed>
+                    </RevealFixedWrap>
+                  </RevealImageLandscape>
+                </FullReveal>
+              </SectionRevealContainer>
+            </ImageSectionContainer>
             </EditorialContent>
           </MainContent>
         </Article>
@@ -163,4 +176,59 @@ const AdSpan = styled.span`
 const Ad = styled.div`
   min-height: 90px;
   padding: 40px 0;
+`
+
+const ImageSectionContainer = styled.div`
+  width: 720px;
+  margin: 17px auto;
+`
+
+const SectionRevealContainer = styled.div`
+  width: 100%;
+`
+
+const FullReveal = styled.div`
+  position: relative;
+  left: 50%;
+  width: 100vw;
+`
+
+const RevealImageLandscape = styled.div`
+  max-width: 1800px;
+  margin: 0 auto;
+  position: relative;
+  left: -50vw;
+  width: 100%;
+  height: 100vh;
+`
+
+const RevealFixedWrap = styled.div`
+  clip: rect(0,auto,auto,0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+`
+
+const RevealFixed = styled.div`
+  position: fixed;
+  display: block;
+  top: 0;
+  width: 100%;
+  max-width: 1800px;
+  height: 100%;
+  transform: translateZ(0);
+`
+
+const LandscapeImage = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  overflow-x: hidden;
 `
