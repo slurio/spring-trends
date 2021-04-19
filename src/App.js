@@ -21,6 +21,28 @@ function App() {
             </Modified>
             <SquigglyLine src='https://www.refinery29.com/images/9829457.png' alt='Squiggly Line'/>     
           </HeaderContainer>
+          <MainContent>
+            <EditorialContent>
+              <SectionContainer>
+                <SectionText>
+                  <br></br>
+                  When we first saw the <Link href="https://www.refinery29.com/en-us/2020/09/10031327/spring-2021-fashion-week-trends">2021 spring collections</Link> in September, we hadn’t any idea what sorts of occasions they’d be worn to once they finally arrived in stores. Now, seven months later, <Link href="https://www.forbes.com/sites/jemimamcevoy/2021/04/04/40-of-us-adults-now-vaccinated-but-here-are-all-the-countries-doing-even-better/">40% of adults in the U.S. are vaccinated</Link>. In turn, a newfound sense of excitement is growing around the fashion trends we can take outside. 
+                </SectionText>
+              </SectionContainer>
+            <SectionContainer>
+              <SectionText>
+                Ahead, a refresher on all the top trends for spring, from supersized silhouettes at Sportmax and Louis Vuitton to joyful colors and patterns at
+                Versace and Miu Miu, all of which we’re now viewing with fresh (and optimistic) eyes — and an open wallet.
+              </SectionText>
+            </SectionContainer>
+            <SectionAdContainer>
+              <SectionAd>
+                <AdSpan>Advertisement</AdSpan>
+                <Ad></Ad>
+              </SectionAd>
+            </SectionAdContainer>
+            </EditorialContent>
+          </MainContent>
         </Article>
     </>
   );
@@ -89,3 +111,53 @@ const SquigglyLine = styled.img`
   text-align: center;
   max-width: 400px;
 `
+
+const MainContent = styled.div`
+  min-width: 280px;
+  max-width: 720px;
+  margin: 0 auto;
+`
+
+const EditorialContent = styled.div``
+
+const SectionContainer = styled.div`
+  margin: 17px auto;
+`
+
+const SectionText = styled.div`
+  font-family: Brown Regular, Gill Sans, Arial, Helvetica, Roboto, Segoe UI Light, Ubuntu Light, DroidSans, sans-serif;
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.65em;
+  font-weight: 500;
+`
+
+const Link = styled.a`
+  text-decoration: none;
+  color: #dbff43;
+  border-bottom: 2px solid #fff;
+`
+
+const SectionAdContainer = styled.div``
+
+const SectionAd = styled.div`
+  width: 100%;
+  min-height: 270px;
+  margin: auto;
+  text-align: center;
+`
+
+const AdSpan = styled.span`
+  color: #7F7F7F;
+  font-family: Brown Regular,sans-serif;
+  font-size: 10px;
+  letter-spacing:  .1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  height: 0;
+  top: 15px;
+  display: block;
+  position: relative;
+`
+
+const Ad = styled.div``
