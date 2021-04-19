@@ -160,4 +160,7 @@ const AdSpan = styled.span`
   position: relative;
 `
 
-const Ad = styled.div``
+const Ad = styled.div`
+  min-height: 90px;
+  padding: 40px 0;
+`
