@@ -41,8 +41,9 @@ function App() {
                 <Ad></Ad>
               </SectionAd>
             </SectionAdContainer>
+            {/* <div style={{display: 'block'}}>
             <ImageSectionContainer>
-              <SectionRevealContainer>
+              <SectionRevealContainer> */}
                 <FullReveal>
                   <RevealImageLandscape>
                     <RevealFixedWrap>
@@ -52,8 +53,18 @@ function App() {
                     </RevealFixedWrap>
                   </RevealImageLandscape>
                 </FullReveal>
-              </SectionRevealContainer>
+              {/* </SectionRevealContainer>
             </ImageSectionContainer>
+            </div> */}
+            <FullReveal>
+              <RevealImageLandscape>
+                <RevealFixedWrap>
+                  <RevealFixed>
+                    <LandscapeImage src='https://www.refinery29.com/images/10414848.jpg' alt='Rick Owens, Balenciaga, and Isabel Marant models wearing SS21 collections against a black background that says "power. shoulders.'/>
+                  </RevealFixed>
+                </RevealFixedWrap>
+              </RevealImageLandscape>
+            </FullReveal>
             </EditorialContent>
           </MainContent>
         </Article>
@@ -64,6 +75,7 @@ function App() {
 export default App;
 
 const Article = styled.div`
+  display: block;
   margin: 0 auto;
   padding: 30px 0 50px;
   max-width: 840px;
@@ -178,39 +190,51 @@ const Ad = styled.div`
   padding: 40px 0;
 `
 
-const ImageSectionContainer = styled.div`
-  width: 720px;
-  margin: 17px auto;
-`
+// const ImageSectionContainer = styled.div`
+//   margin: 17px auto;
+//   border: 1px solid red;
+// `
 
-const SectionRevealContainer = styled.div`
-  width: 100%;
-`
+// const SectionRevealContainer = styled.div`
+//   position: relative;
+//   width: 100%;
+//   clear: both;
+//   border: 1px solid yellow;
+// `
 
 const FullReveal = styled.div`
   position: relative;
   left: 50%;
   width: 100vw;
+  border: 2px solid green;
+  background-color: green;
 `
 
+//below sets up the CAP TEXT lanscape view /etc.
 const RevealImageLandscape = styled.div`
+  display: block;
   max-width: 1800px;
   margin: 0 auto;
   position: relative;
   left: -50vw;
   width: 100%;
   height: 100vh;
+  border: 2px solid purple;
 `
 
+//below intro come before scroll to reveal CAP TEXT
 const RevealFixedWrap = styled.div`
+  display: block;
   clip: rect(0,auto,auto,0);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  border: 2px solid grey;
 `
 
+//below lets user scoll intro to reveal CAP TEXT
 const RevealFixed = styled.div`
   position: fixed;
   display: block;
@@ -219,8 +243,10 @@ const RevealFixed = styled.div`
   max-width: 1800px;
   height: 100%;
   transform: translateZ(0);
+  border: 2px solid pink;
 `
 
+// place img and size it correctly
 const LandscapeImage = styled.img`
   position: absolute;
   top: 0;
@@ -231,4 +257,5 @@ const LandscapeImage = styled.img`
   max-width: 100%;
   margin: auto;
   overflow-x: hidden;
+  border: 2px solid red;
 `
