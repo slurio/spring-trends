@@ -65,6 +65,33 @@ function App() {
                 </RevealFixedWrap>
               </RevealImageLandscape>
             </FullReveal>
+
+            <ContentCaption>
+              <Credit>Photos: Courtesy of Rick Owens, Balenciaga, and Isabel Marant.</Credit>
+            </ContentCaption>
+            <SectionContainer>
+              <SectionText>When we first noticed the size of the shoulders on garments during Fashion Month last September, it made sense: heavily padded sleeves are effective in preventing people from getting too close to your face. The silhouette also exudes power. After a year spent indoors in uncertainty, we’re taking back the town — and doing so in big-shouldered jackets. </SectionText>
+            </SectionContainer>
+            <SectionContainer>
+              <MultiProductContainer>
+                <MultiProductCarousel>
+                  <MultiProductCount>shop 3 products</MultiProductCount>
+                  <ProductRow>
+                    <Product>
+                      <a style={{textDecoration: 'none'}} href='https://www.cosstores.com/en_usd/women/womenswear/tops/product.sleeveless-organic-cotton-t-shirt-orange.0907302010.html' target='_blank' rel='nofollow noopener'>
+                        <ImageContainer>
+                          <ProductImage src='https://www.refinery29.com/images/10415230.jpg?crop=5:6' alt='cosstores orange sleeveless t-shirt'/>
+                        </ImageContainer>
+                        <BrandName>Cos</BrandName>
+                      </a>
+                    </Product>
+                    <Product></Product>
+                    <Product></Product>
+                  </ProductRow>
+                </MultiProductCarousel>
+              </MultiProductContainer>
+            </SectionContainer>
+
             </EditorialContent>
           </MainContent>
         </Article>
@@ -259,3 +286,88 @@ const LandscapeImage = styled.img`
   overflow-x: hidden;
   border: 2px solid red;
 `
+
+const ContentCaption = styled.div`
+  text-align: center;
+`
+
+const Credit = styled.div`
+  color:  #7F7F7F;
+  font-family: Brown Regular,sans-serif;
+  font-size: 10px;
+  letter-spacing: .1em;
+  letter-height: 1.4em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 7px;
+`
+
+ const MultiProductContainer = styled.div`
+  position: relative;
+ `
+
+ const MultiProductCarousel = styled.div``
+
+ const MultiProductCount = styled.div`
+  color: #ffffff;
+  font-family: Brown Regular,sans-serif;
+  font-size: 12px;
+  letter-spacing: .1em;
+  letter-height: 1.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+ `
+
+ const ProductRow = styled.div`
+  transform: translateX(0px);
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: center;
+  padding-bottom: 15px;
+  white-space: nowrap;
+  position: relative;
+ `
+
+ const Product = styled.div`
+  margin-left: 0px;
+  margin: 0 20px;
+  font-family: Brown Regular,sans-serif;
+  font-size: 12px;
+  letter-spacing: .1em;
+  letter-height: 1.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 210px;
+  min-height: 380px;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+ `
+
+ const ImageContainer = styled.div`
+  width: 210px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+ `
+
+ const ProductImage = styled.img`
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 210px;
+  max-height: 250px;
+ `
+
+ const BrandName = styled.div`
+  color: #ffffff;
+  margin: 10px 0 5px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+ `
