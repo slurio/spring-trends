@@ -95,8 +95,42 @@ function App() {
                         </BuyDetails>
                       </a>
                     </Product>
-                    <Product></Product>
-                    <Product></Product>
+                    <Product>
+                      <a style={{textDecoration: 'none'}} href='https://www.stories.com/en_usd/clothing/blazers/product.oversized-double-breasted-padded-shoulder-blazer-pink.0921969001.html' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10415246.jpg?crop=5:6' alt=''/>
+                          </ImageContainer>
+                          <BrandName>&amp; Other Stories</BrandName>
+                          <ShortTitle>Oversized Double Breasted Padded Shoulder</ShortTitle>
+                          <BuyDetails>
+                            <BuyButton>
+                              <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                              <RetailPrice>$179.00</RetailPrice>
+                              <RetailerCredit>& Other Stories</RetailerCredit>
+                            </PriceDetails>
+                          </BuyDetails>
+                        </a>
+                    </Product>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://www.zara.com/us/en/plaid-cropped-jacket-p03015653.html?v1=105581821&v2=1718115' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10415290.png?crop=5:6' alt=''/>
+                          </ImageContainer>
+                          <BrandName>Zara</BrandName>
+                          <ShortTitle>Plaid Cropped Jacket</ShortTitle>
+                          <BuyDetails>
+                            <BuyButton>
+                              <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                              <RetailPrice>$119.00</RetailPrice>
+                              <RetailerCredit>Zara</RetailerCredit>
+                            </PriceDetails>
+                          </BuyDetails>
+                        </a>
+                    </Product>
                   </ProductRow>
                 </MultiProductCarousel>
               </MultiProductContainer>
