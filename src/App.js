@@ -83,6 +83,16 @@ function App() {
                           <ProductImage src='https://www.refinery29.com/images/10415230.jpg?crop=5:6' alt='cosstores orange sleeveless t-shirt'/>
                         </ImageContainer>
                         <BrandName>Cos</BrandName>
+                        <ShortTitle>Sleeveless Organic Cotton T-shirt</ShortTitle>
+                        <BuyDetails>
+                          <BuyButton>
+                            <span>buy</span>
+                          </BuyButton>
+                          <PriceDetails>
+                            <RetailPrice>$35.00</RetailPrice>
+                            <RetailerCredit>COS</RetailerCredit>
+                          </PriceDetails>
+                        </BuyDetails>
                       </a>
                     </Product>
                     <Product></Product>
@@ -371,3 +381,58 @@ const Credit = styled.div`
   white-space: nowrap;
   text-overflow: ellipsis;
  `
+
+ const ShortTitle = styled.div`
+  color: #ffffff;
+  font-family: Brown Regular, arial, helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: -.02em;
+  line-height: 1.3em;
+  margin-bottom: 1.3em;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-transform: none;
+ `
+
+ const BuyDetails = styled.div`
+  display: flex;
+ `
+
+ const BuyButton = styled.button`
+  margin: 0;
+  color: #000;
+  background-color: #dbff43;
+  border: 1px solid #dbff43;
+  border-radius: 0;
+  font-family: Brown Bold,sans-serif;
+  font-size: 10px;
+  letter-spacing: .1em;
+  line-height: 1.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 28px;
+  margin-right: 10px;
+  text-align: center;
+  width: 46px;
+ `
+const PriceDetails = styled.div`
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+`
+
+const RetailPrice = styled.span`
+  color: #ffffff;
+  display: inline-block;
+  margin-bottom: 4px;
+  font-size: 12px;
+`
+
+const RetailerCredit = styled.span`
+  color: #ffffff;
+  font-size: 10px;
+`
