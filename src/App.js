@@ -153,6 +153,80 @@ function App() {
               </RevealImageLandscape>
             </FullReveal>
 
+            <ContentCaption>
+              <Credit>Photos: Courtesy of Versace, Etro, and Miu Miu.</Credit>
+            </ContentCaption>
+            <SectionContainer>
+              <SectionText>No matter how comfortable a gray sweatsuit and house slippers are, especially when paired with a cushy sofa and another viewing of 
+                <Link style={{fontStyle: 'italic'}} href='https://www.refinery29.com/en-us/gossip-girl-outfits-fashion-looks-buy'> Gossip Girl</Link>
+                , they simply do not bring out the same sense of joy that a vibrant-colored and -printed dress, set, or micro-mini will. Leisurewear was great when we were at home. Now that vaccine rollouts are on the way, it’s time to ditch that gear though, and embrace fashion that’s as jovial as our outlook.
+              </SectionText>
+            </SectionContainer>
+
+            <SectionContainer>
+              <MultiProductContainer>
+                <MultiProductCarousel>
+                  <MultiProductCount>shop 3 products</MultiProductCount>
+                  <ProductRow>
+                    <Product>
+                      <a style={{textDecoration: 'none'}} href='https://www.net-a-porter.com/en-us/shop/product/rejina-pyo/clothing/blouses/plus-net-sustain-meryl-cropped-printed-fillsens-lyocell-shirt/2204324139864202' target='_blank' rel='nofollow noopener'>
+                        <ImageContainer>
+                          <ProductImage src='https://www.refinery29.com/images/10414308.jpg?crop=5:6' alt='net-a-porter blue t-shirt'/>
+                        </ImageContainer>
+                        <BrandName>Rejina Pyo</BrandName>
+                        <ShortTitle>Meryl Cropped Printed Fillsens Lyocell Shirt</ShortTitle>
+                        <BuyDetails>
+                          <BuyButton>
+                            <span>buy</span>
+                          </BuyButton>
+                          <PriceDetails>
+                            <RetailPrice>$435.00</RetailPrice>
+                            <RetailerCredit>Net-A-Porter</RetailerCredit>
+                          </PriceDetails>
+                        </BuyDetails>
+                      </a>
+                    </Product>
+                    <Product>
+                      <a style={{textDecoration: 'none'}} href='https://www.cestd.com/shop/p/ruched-dress' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10414339.jpg?crop=5:6' alt=''/>
+                          </ImageContainer>
+                          <BrandName>C'est D</BrandName>
+                          <ShortTitle>Jewel Ruched Dress</ShortTitle>
+                          <BuyDetails>
+                            <BuyButton>
+                              <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                              <RetailPrice>$105.00</RetailPrice>
+                              <RetailerCredit>C'est D</RetailerCredit>
+                            </PriceDetails>
+                          </BuyDetails>
+                        </a>
+                    </Product>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://simonett.us/collections/all/products/simonett-cult-form-yorgan-maxi-tights-red-stretchy-leggings-ss21' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10414434.jpg?crop=5:6' alt=''/>
+                          </ImageContainer>
+                          <BrandName>Cult Form</BrandName>
+                          <ShortTitle>Yorgan Maxi Tights</ShortTitle>
+                          <BuyDetails>
+                            <BuyButton>
+                              <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                              <RetailPrice>$186.00</RetailPrice>
+                              <RetailerCredit>Simonett</RetailerCredit>
+                            </PriceDetails>
+                          </BuyDetails>
+                        </a>
+                    </Product>
+                  </ProductRow>
+                </MultiProductCarousel>
+              </MultiProductContainer>
+            </SectionContainer>
+            
 
             </EditorialContent>
           </MainContent>
@@ -241,7 +315,7 @@ const SectionContainer = styled.div`
 const SectionText = styled.div`
   font-family: Brown Regular, Gill Sans, Arial, Helvetica, Roboto, Segoe UI Light, Ubuntu Light, DroidSans, sans-serif;
   color: #fff;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.65em;
   font-weight: 500;
 `
@@ -279,33 +353,12 @@ const Ad = styled.div`
   padding: 40px 0;
 `
 
-// const ImageSectionContainer = styled.div`
-//   margin: 17px auto;
-//   border: 1px solid red;
-// `
-
-// const SectionRevealContainer = styled.div`
-//   position: relative;
-//   width: 100%;
-//   clear: both;
-//   border: 1px solid yellow;
-// `
-
 const FullReveal = styled.div`
   position: relative;
   right: 45%;
   width: 100vw;
   height: 100vh;
 `
-
-// const FullReveal = styled.div`
-//   position: relative;
-//   left: 50%;
-//   width: 100vw;
-//   border: 2px solid green;
-//   background-color: green;
-// `
-
 
 //below sets up the CAP TEXT lanscape view /etc.
 const RevealImageLandscape = styled.div`
