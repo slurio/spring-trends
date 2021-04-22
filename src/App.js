@@ -135,6 +135,27 @@ function App() {
                 </MultiProductCarousel>
               </MultiProductContainer>
             </SectionContainer>
+            
+              <FullReveal>
+                <RevealImageLandscape>
+                  <RevealFixedWrap>
+                    <RevealFixed>
+                      <LandscapeImage src='https://www.refinery29.com/images/10414851.jpg' alt='Black background with neon green letters that say joyful dressing.'/>
+                    </RevealFixed>
+                  </RevealFixedWrap>
+                </RevealImageLandscape>
+              </FullReveal>
+
+              <FullReveal>
+              <RevealImageLandscape>
+                <RevealFixedWrap>
+                  <RevealFixed>
+                    <LandscapeImage src='https://www.refinery29.com/images/10414852.jpg' alt='Versace, Etro, and Miu Miu models wearing SS21 collections against a black background with neon green letters that say "joyful dressing.'/>
+                  </RevealFixed>
+                </RevealFixedWrap>
+              </RevealImageLandscape>
+            </FullReveal>
+
 
             </EditorialContent>
           </MainContent>
