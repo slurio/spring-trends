@@ -294,6 +294,7 @@ const Ad = styled.div`
 //   border: 1px solid yellow;
 // `
 
+
 const FullReveal = styled.div`
   position: relative;
   left: 50%;
@@ -301,6 +302,7 @@ const FullReveal = styled.div`
   border: 2px solid green;
   background-color: green;
 `
+
 
 //below sets up the CAP TEXT lanscape view /etc.
 const RevealImageLandscape = styled.div`
