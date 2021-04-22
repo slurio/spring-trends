@@ -41,9 +41,7 @@ function App() {
                 <Ad></Ad>
               </SectionAd>
             </SectionAdContainer>
-            {/* <div style={{display: 'block'}}>
-            <ImageSectionContainer>
-              <SectionRevealContainer> */}
+
                 <FullReveal>
                   <RevealImageLandscape>
                     <RevealFixedWrap>
@@ -53,9 +51,7 @@ function App() {
                     </RevealFixedWrap>
                   </RevealImageLandscape>
                 </FullReveal>
-              {/* </SectionRevealContainer>
-            </ImageSectionContainer>
-            </div> */}
+   
             <FullReveal>
               <RevealImageLandscape>
                 <RevealFixedWrap>
@@ -72,6 +68,7 @@ function App() {
             <SectionContainer>
               <SectionText>When we first noticed the size of the shoulders on garments during Fashion Month last September, it made sense: heavily padded sleeves are effective in preventing people from getting too close to your face. The silhouette also exudes power. After a year spent indoors in uncertainty, we’re taking back the town — and doing so in big-shouldered jackets. </SectionText>
             </SectionContainer>
+
             <SectionContainer>
               <MultiProductContainer>
                 <MultiProductCarousel>
@@ -294,14 +291,22 @@ const Ad = styled.div`
 //   border: 1px solid yellow;
 // `
 
-
 const FullReveal = styled.div`
   position: relative;
-  left: 50%;
+  right: 45%;
   width: 100vw;
+  height: 100vh;
   border: 2px solid green;
   background-color: green;
 `
+
+// const FullReveal = styled.div`
+//   position: relative;
+//   left: 50%;
+//   width: 100vw;
+//   border: 2px solid green;
+//   background-color: green;
+// `
 
 
 //below sets up the CAP TEXT lanscape view /etc.
@@ -310,10 +315,8 @@ const RevealImageLandscape = styled.div`
   max-width: 1800px;
   margin: 0 auto;
   position: relative;
-  left: -50vw;
   width: 100%;
   height: 100vh;
-  border: 2px solid purple;
 `
 
 //below intro come before scroll to reveal CAP TEXT
