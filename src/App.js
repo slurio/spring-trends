@@ -242,6 +242,7 @@ const Article = styled.div`
   margin: 0 auto;
   padding: 30px 0 50px;
   max-width: 840px;
+  overflow: hidden;
 `
 
 const Image = styled.img`
@@ -354,20 +355,19 @@ const Ad = styled.div`
 `
 
 const FullReveal = styled.div`
-  position: relative;
-  right: 45%;
   width: 100vw;
-  height: 100vh;
+  position: relative;
+  left: 50%;
 `
 
 //below sets up the CAP TEXT lanscape view /etc.
 const RevealImageLandscape = styled.div`
-  display: block;
   max-width: 1800px;
   margin: 0 auto;
   position: relative;
   width: 100%;
   height: 100vh;
+  left: -50vw;
 `
 
 //below intro come before scroll to reveal CAP TEXT
