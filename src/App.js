@@ -363,6 +363,100 @@ function App() {
               </MultiProductContainer>
             </SectionContainer>
 
+            <FullReveal>
+                <RevealImageLandscape>
+                  <RevealFixedWrap>
+                    <RevealFixed>
+                      <LandscapeImage src='https://www.refinery29.com/images/10417138.jpg' alt='Black background that says "monochromatic" in light pink letters.'/>
+                    </RevealFixed>
+                  </RevealFixedWrap>
+                </RevealImageLandscape>
+              </FullReveal>
+
+              <FullReveal>
+              <RevealImageLandscape>
+                <RevealFixedWrap>
+                  <RevealFixed>
+                    <LandscapeImage src='https://www.refinery29.com/images/10417141.jpg' alt='Fendi, MaxMara, and Sportmax models wearing SS21 collections against a black background that says "monochromatic" in light pink letters.'/>
+                  </RevealFixed>
+                </RevealFixedWrap>
+              </RevealImageLandscape>
+            </FullReveal>
+
+            <ContentCaption>
+              <Credit>Photos: Courtesy of Versace, Pucci, No. 21.</Credit>
+            </ContentCaption>
+            <SectionContainer>
+              <SectionText>If, rather than feeling intimidated, you’re eager to embrace the chaos of pairing different patterns, this season has seen prints ranging from electric seashells to more understated florals. Fashion rules don’t exist anymore — the pandemic made sure of that — so we say, clash away.</SectionText>
+            </SectionContainer>
+
+            <SectionContainer>
+              <MultiProductContainer>
+                <MultiProductCarousel>
+                  <MultiProductCount>shop 3 products</MultiProductCount>
+                  <ProductRow>
+                    <Product>
+                      <a style={{textDecoration: 'none'}} href='https://tamaramalas.com/products/petunia-bike-shorts?variant=21133864992827#' target='_blank' rel='nofollow noopener'>
+                        <ImageContainer>
+                          <ProductImage src='https://www.refinery29.com/images/10414397.png?crop=5:6' alt='cosstores orange sleeveless t-shirt'/>
+                        </ImageContainer>
+                        <BrandName>Tamara Malas</BrandName>
+                        <ShortTitle>Petunia Bike Shorts</ShortTitle>
+                        <BuyDetails>
+                          <BuyButton>
+                            <span>buy</span>
+                          </BuyButton>
+                          <PriceDetails>
+                            <div>
+                              <SalePrice>$40.00</SalePrice>
+                              <OriginalPrice>$105.00</OriginalPrice>
+                            </div>
+                            <RetailerCredit>Tamara Malas</RetailerCredit>
+                          </PriceDetails>
+                        </BuyDetails>
+                      </a>
+                    </Product>
+                    <Product>
+                      <a style={{textDecoration: 'none'}} href='https://simonett.us/products/simonett-gimaguas-pareo-dress-swimsuit-pink-chess-ss21' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10414403.jpg?crop=5:6' alt=''/>
+                          </ImageContainer>
+                          <BrandName>Gimaguas</BrandName>
+                          <ShortTitle>Pareo Dress</ShortTitle>
+                          <BuyDetails>
+                            <BuyButton>
+                              <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                              <RetailPrice>$59.00</RetailPrice>
+                              <RetailerCredit>Simonett</RetailerCredit>
+                            </PriceDetails>
+                          </BuyDetails>
+                        </a>
+                    </Product>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://www.ssense.com/en-us/women/product/louisa-ballou/ssense-exclusive-blue-and-yellow-heatwave-ruched-dress/6886521' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10414413.jpg?crop=5:6' alt=''/>
+                          </ImageContainer>
+                          <BrandName>Louisa Ballou</BrandName>
+                          <ShortTitle>Blue & Yellow Heatwave Ruched Dress</ShortTitle>
+                          <BuyDetails>
+                            <BuyButton>
+                              <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                              <RetailPrice>$400.00</RetailPrice>
+                              <RetailerCredit>SSENSE</RetailerCredit>
+                            </PriceDetails>
+                          </BuyDetails>
+                        </a>
+                    </Product>
+                  </ProductRow>
+                </MultiProductCarousel>
+              </MultiProductContainer>
+            </SectionContainer>
+
             </EditorialContent>
           </MainContent>
         </Article>
@@ -628,7 +722,14 @@ const RetailPrice = styled.span`
   margin-bottom: 4px;
   font-size: 12px;
 `
+const SalePrice = styled(RetailPrice)`
+   color: #dbff43;
+   margin-right: 5px;
+`
 
+const OriginalPrice = styled(RetailPrice)`
+  text-decoration: line-through;
+`
 const RetailerCredit = styled.span`
   color: #ffffff;
   font-size: 10px;
