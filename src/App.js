@@ -218,6 +218,150 @@ function App() {
               </MultiProductContainer>
             </SectionContainer>
             
+            <FullReveal>
+                <RevealImageLandscape>
+                  <RevealFixedWrap>
+                    <RevealFixed>
+                      <LandscapeImage src='https://www.refinery29.com/images/10414855.jpg' alt='Black background that says "monochromatic" in light pink letters.'/>
+                    </RevealFixed>
+                  </RevealFixedWrap>
+                </RevealImageLandscape>
+              </FullReveal>
+
+              <FullReveal>
+              <RevealImageLandscape>
+                <RevealFixedWrap>
+                  <RevealFixed>
+                    <LandscapeImage src='https://www.refinery29.com/images/10414856.jpg' alt='Fendi, MaxMara, and Sportmax models wearing SS21 collections against a black background that says "monochromatic" in light pink letters.'/>
+                  </RevealFixed>
+                </RevealFixedWrap>
+              </RevealImageLandscape>
+            </FullReveal>
+
+            <ContentCaption>
+              <Credit>Photos: Courtesy of Fendi, MaxMara, and Sportmax.</Credit>
+            </ContentCaption>
+            <SectionContainer>
+              <SectionText>Given that many of us haven’t <em>actually</em> gotten dressed in more than a year, it’s understandable if the concept of pairing colors and patterns in ways that work together feels intimidating. Ease into fashion again by sticking with just one color — be it a pastel, neon, or neutral — for your entire look. For inspo, see: MaxMara, Fendi, Sportmax, and No.21.</SectionText>
+            </SectionContainer>
+
+            <SectionContainer>
+              <MultiProductContainer>
+                <MultiProductCarousel>
+                  <MultiProductCount>shop 6 products</MultiProductCount>
+                  <ProductRow>
+                    <Product>
+                      <a style={{textDecoration: 'none'}} href='https://www.houseofsunny.co.uk/product-page/isalnd-halter' target='_blank' rel='nofollow noopener'>
+                        <ImageContainer>
+                          <ProductImage src='https://www.refinery29.com/images/10415020.png?crop=5:6' alt='Green Halter Shirt'/>
+                        </ImageContainer>
+                        <BrandName>House Of Sunny</BrandName>
+                        <ShortTitle>Island Halter</ShortTitle>
+                        <BuyDetails>
+                          <BuyButton>
+                            <span>buy</span>
+                          </BuyButton>
+                          <PriceDetails>
+                            <RetailPrice>$77.06</RetailPrice>
+                            <RetailerCredit>House Of Sunny</RetailerCredit>
+                          </PriceDetails>
+                        </BuyDetails>
+                      </a>
+                    </Product>
+                    <Product>
+                      <a style={{textDecoration: 'none'}} href='https://www.houseofsunny.co.uk/product-page/isalnd-pants' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10415029.png?crop=5:6' alt='Green Pants'/>
+                          </ImageContainer>
+                          <BrandName>House Of Sunny</BrandName>
+                        <ShortTitle>Island Pants</ShortTitle>
+                        <BuyDetails>
+                          <BuyButton>
+                            <span>buy</span>
+                          </BuyButton>
+                          <PriceDetails>
+                            <RetailPrice>$119.71</RetailPrice>
+                            <RetailerCredit>House Of Sunny</RetailerCredit>
+                          </PriceDetails>
+                        </BuyDetails>
+                        </a>
+                    </Product>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://thesourceunknown.com/collections/co-ord-set/products/strapless-bustier-knit-top-midnight-black' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10415152.jpg?crop=5:6' alt=''/>
+                          </ImageContainer>
+                          <BrandName>The Source Unknown</BrandName>
+                          <ShortTitle>Strapless Bustier Knit Top</ShortTitle>
+                          <BuyDetails>
+                            <BuyButton>
+                              <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                              <RetailPrice>$76.00</RetailPrice>
+                              <RetailerCredit>The Source Unknown</RetailerCredit>
+                            </PriceDetails>
+                          </BuyDetails>
+                        </a>
+                    </Product>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://thesourceunknown.com/collections/new-in/products/full-length-frayed-hem-knit-pants-midnight-black' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10415177.jpg?crop=5:6' alt=''/>
+                          </ImageContainer>
+                          <BrandName>The Source Unknown</BrandName>
+                          <ShortTitle>Full Length Frayed Hem Knit Pants</ShortTitle>
+                          <BuyDetails>
+                            <BuyButton>
+                              <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                              <RetailPrice>$82.00</RetailPrice>
+                              <RetailerCredit>The Source Unknown</RetailerCredit>
+                            </PriceDetails>
+                          </BuyDetails>
+                        </a>
+                    </Product>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://www.eloquii.com/long-button-detail-blazer/1268653.html?dwvar_1268653_colorCode=1' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10415193.png?crop=5:6' alt=''/>
+                          </ImageContainer>
+                          <BrandName>Eloquii</BrandName>
+                          <ShortTitle>Long Button Detail Blazer</ShortTitle>
+                          <BuyDetails>
+                            <BuyButton>
+                              <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                              <RetailPrice>$99.95</RetailPrice>
+                              <RetailerCredit>Eloquii</RetailerCredit>
+                            </PriceDetails>
+                          </BuyDetails>
+                        </a>
+                    </Product>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://www.eloquii.com/wide-leg-trouser/1175005.html?dwvar_1175005_colorCode=1' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10415193.png?crop=5:6' alt=''/>
+                          </ImageContainer>
+                          <BrandName>Eloquii</BrandName>
+                          <ShortTitle>Wide Leg Trouser</ShortTitle>
+                          <BuyDetails>
+                            <BuyButton>
+                              <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                              <RetailPrice>$99.95</RetailPrice>
+                              <RetailerCredit>Eloquii</RetailerCredit>
+                            </PriceDetails>
+                          </BuyDetails>
+                        </a>
+                    </Product>
+                  </ProductRow>
+                </MultiProductCarousel>
+              </MultiProductContainer>
+            </SectionContainer>
 
             </EditorialContent>
           </MainContent>
@@ -465,6 +609,12 @@ const Credit = styled.div`
   margin-right: 10px;
   text-align: center;
   width: 46px;
+  transition: background-color .2s ease-in-out,color .2s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #dbff43;
+  }
  `
 const PriceDetails = styled.div`
   display: flex;
