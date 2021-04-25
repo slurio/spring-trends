@@ -19,7 +19,11 @@ function ArticleContent() {
             <SectionAdContainer>
             <SectionAd>
                 <AdSpan>Advertisement</AdSpan>
-                <Ad></Ad>
+                <Ad>
+                    <a href='https://www.gucci.com/us/en/' target='_blank' rel='nofollow noopener'>
+                    <AdImage src='https://www.esquireme.com/public/images/2019/07/16/Gucci-fall-winter-2019-campaign-(3).jpg' alt='Gucci 2019 Ad'/>
+                    </a>
+                </Ad>
             </SectionAd>
             </SectionAdContainer>
 
@@ -732,6 +736,10 @@ function ArticleContent() {
                 </MultiProductCarousel>
             </MultiProductContainer>
             </SectionContainer>
+        
+            <SectionContainer>
+                <SectionText><em>At Refinery29, we’re here to help you navigate this overwhelming world of stuff. All of our market picks are independently selected and curated by the editorial team. If you buy something we link to on our site, Refinery29 may earn commission.</em></SectionText>
+            </SectionContainer>
         </>
     )
 }
@@ -781,6 +789,11 @@ const AdSpan = styled.span`
 const Ad = styled.div`
   min-height: 90px;
   padding: 40px 0;
+`
+
+const AdImage = styled.img`
+    width: 60%;
+    height: auto;
 `
 
 const FullReveal = styled.div`
