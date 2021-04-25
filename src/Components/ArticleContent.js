@@ -638,6 +638,100 @@ function ArticleContent() {
                 </MultiProductCarousel>
             </MultiProductContainer>
             </SectionContainer>
+
+            <FullReveal>
+                <RevealImageLandscape>
+                <RevealFixedWrap>
+                    <RevealFixed>
+                    <LandscapeImage src='https://www.refinery29.com/images/10414871.jpg' alt='Black background with purple letters that say "Needlework."'/>
+                    </RevealFixed>
+                </RevealFixedWrap>
+                </RevealImageLandscape>
+            </FullReveal>
+
+            <FullReveal>
+            <RevealImageLandscape>
+                <RevealFixedWrap>
+                <RevealFixed>
+                    <LandscapeImage src='https://www.refinery29.com/images/10414872.jpg' alt='Ulla Johnson, Alberta Ferretti, Anna Sui models wearing SS21 collections against a black background with purple letters that say "Needlework."'/>
+                </RevealFixed>
+                </RevealFixedWrap>
+            </RevealImageLandscape>
+            </FullReveal>
+
+
+            <ContentCaption>
+            <Credit>Photos: Courtesy of Ulla Johnson, Alberta Ferretti, Anna Sui.</Credit>
+            </ContentCaption>
+            <SectionContainer>
+            <SectionText>You spent all of 2020 (and part of 2021) twiddling away in your makeshift craft corner, knitting, crocheting, and bedazzling your way to mental clarity. Now that clearer skies are in our midst, you can finally put your needles down and enjoy the fruits of your labor. For ideas on how to style your DIY fashions, let Ulla Johnson, Anna Sui, and Alberta Ferretti be your guides.</SectionText>
+            </SectionContainer>
+
+            <SectionContainer>
+            <MultiProductContainer>
+                <MultiProductCarousel>
+                <MultiProductCount>shop 3 products</MultiProductCount>
+                <ProductRow>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://lisasaysgah.com/collections/new-arrivals/products/granny-bob-multi?variant=39549844619444' target='_blank' rel='nofollow noopener'>
+                        <ImageContainer>
+                        <ProductImage src='https://www.refinery29.com/images/10414276.png?crop=5:6' alt='cosstores orange sleeveless t-shirt'/>
+                        </ImageContainer>
+                        <BrandName>Bleu Chose</BrandName>
+                        <ShortTitle>Granny Bob</ShortTitle>
+                        <BuyDetails>
+                        <BuyButton>
+                            <span>buy</span>
+                        </BuyButton>
+                        <PriceDetails>
+                            <div>
+                            <RetailPrice>$150.00</RetailPrice>
+                            </div>
+                            <RetailerCredit>Lisa Says Gah</RetailerCredit>
+                        </PriceDetails>
+                        </BuyDetails>
+                    </a>
+                    </Product>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://www.zara.com/us/en/crocheted-straight-skirt-p04886090.html?v1=97668895&v2=1712675' target='_blank' rel='nofollow noopener'>
+                        <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10414287.png?crop=5:6' alt=''/>
+                        </ImageContainer>
+                        <BrandName>Zara</BrandName>
+                        <ShortTitle>Crocheted Straight Skirt</ShortTitle>
+                        <BuyDetails>
+                            <BuyButton>
+                            <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                            <RetailPrice>$69.90</RetailPrice>
+                            <RetailerCredit>Zara</RetailerCredit>
+                            </PriceDetails>
+                        </BuyDetails>
+                        </a>
+                    </Product>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://theseriesny.com/collections/granny-tanks/products/vicky-granny-tank' target='_blank' rel='nofollow noopener'>
+                        <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10414294.jpg?crop=5:6' alt=''/>
+                        </ImageContainer>
+                        <BrandName>The Series NY</BrandName>
+                        <ShortTitle>Vicky Granny Tank</ShortTitle>
+                        <BuyDetails>
+                            <BuyButton>
+                            <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                            <RetailPrice>$120.00</RetailPrice>
+                            <RetailerCredit>The Series NY</RetailerCredit>
+                            </PriceDetails>
+                        </BuyDetails>
+                        </a>
+                    </Product>
+                </ProductRow>
+                </MultiProductCarousel>
+            </MultiProductContainer>
+            </SectionContainer>
         </>
     )
 }
