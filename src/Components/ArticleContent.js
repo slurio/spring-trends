@@ -874,22 +874,23 @@ const Credit = styled.div`
   padding-bottom: 15px;
   white-space: nowrap;
   position: relative;
+  transition: transform .35s ease-out,-webkit-transform .35s ease-out;
  `
 
  const Product = styled.div`
-  margin-left: 0px;
-  margin: 0 20px;
-  font-family: Brown Regular,sans-serif;
-  font-size: 12px;
-  letter-spacing: .1em;
-  letter-height: 1.2em;
-  font-weight: 600;
-  text-transform: uppercase;
-  width: 210px;
-  min-height: 380px;
-  position: relative;
-  display: inline-block;
-  text-align: left;
+    margin: 0 20px;
+    margin-left: 0;
+    font-family: Brown Regular,sans-serif;
+    font-size: 12px;
+    letter-spacing: .1em;
+    letter-height: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 210px;
+    min-height: 380px;
+    position: relative;
+    display: inline-block;
+    text-align: left;
  `
 
  const ImageContainer = styled.div`
