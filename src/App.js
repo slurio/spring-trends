@@ -455,6 +455,104 @@ function App() {
               </MultiProductContainer>
             </SectionContainer>
 
+            <FullReveal>
+                <RevealImageLandscape>
+                  <RevealFixedWrap>
+                    <RevealFixed>
+                      <LandscapeImage src='https://www.refinery29.com/images/10414863.jpg' alt='Black background with light pink letters that say "Big Bags.'/>
+                    </RevealFixed>
+                  </RevealFixedWrap>
+                </RevealImageLandscape>
+              </FullReveal>
+
+              <FullReveal>
+              <RevealImageLandscape>
+                <RevealFixedWrap>
+                  <RevealFixed>
+                    <LandscapeImage src='https://www.refinery29.com/images/10414864.jpg' alt='Sportmax, Sunnei, and Ferragamo models wearing the SS21 collections against a black background with light pink letters that say "Big Bags.'/>
+                  </RevealFixed>
+                </RevealFixedWrap>
+              </RevealImageLandscape>
+            </FullReveal>
+
+
+            <ContentCaption>
+              <Credit>Photos: Courtesy of Sportmax, Sunnei, and Ferragamo.</Credit>
+            </ContentCaption>
+            <SectionContainer>
+              <SectionText>
+                In the coming months, the hope is that we can spend as much time outside as we did inside in 2020. Because of that, we’re going to need XXL bags to fit all our belongings in, from picnic blankets and snacks (
+                <Link ahref='https://www.refinery29.com/en-us/2021/04/10411220/oishii-omakase-berry-review'>the “Tesla of strawberries</Link>
+                ,” anyone?) to gallon-sized <Link ahref='https://www.refinery29.com/en-us/2021/03/10356932/water-bottle-bag-fashion'>water bottles</Link> and a spare pair of <Link href='https://www.refinery29.com/en-us/2021/04/10407206/mens-short-shorts-trend?utm_source=feed&utm_medium=rss'>short shorts</Link>.
+              </SectionText>
+            </SectionContainer>
+            
+            <SectionContainer>
+              <MultiProductContainer>
+                <MultiProductCarousel>
+                  <MultiProductCount>shop 3 products</MultiProductCount>
+                  <ProductRow>
+                    <Product>
+                      <a style={{textDecoration: 'none'}} href='https://www.verishop.com/staud/handbags/large-moon-bag/p4327266484247' target='_blank' rel='nofollow noopener'>
+                        <ImageContainer>
+                          <ProductImage src='https://www.refinery29.com/images/10415300.jpg?crop=5:6' alt='cosstores orange sleeveless t-shirt'/>
+                        </ImageContainer>
+                        <BrandName>Staud</BrandName>
+                        <ShortTitle>Large Moon Bag</ShortTitle>
+                        <BuyDetails>
+                          <BuyButton>
+                            <span>buy</span>
+                          </BuyButton>
+                          <PriceDetails>
+                            <div>
+                              <RetailPrice>$395.00</RetailPrice>
+                            </div>
+                            <RetailerCredit>Verishop</RetailerCredit>
+                          </PriceDetails>
+                        </BuyDetails>
+                      </a>
+                    </Product>
+                    <Product>
+                      <a style={{textDecoration: 'none'}} href='https://www.asos.com/us/topshop/topshop-oversized-knot-nylon-hobo-bag-in-khaki/prd/24102487' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10415311.png?crop=5:6' alt=''/>
+                          </ImageContainer>
+                          <BrandName>Topshop</BrandName>
+                          <ShortTitle>Oversized Knot Nylon Hobo Bag</ShortTitle>
+                          <BuyDetails>
+                            <BuyButton>
+                              <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                              <RetailPrice>$62.00</RetailPrice>
+                              <RetailerCredit>ASOS</RetailerCredit>
+                            </PriceDetails>
+                          </BuyDetails>
+                        </a>
+                    </Product>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://www.shopbop.com/bag-square-small-oil-kassl/vp/v=1/1535974665.htm' target='_blank' rel='nofollow noopener'>
+                          <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10415342.png?crop=5:6' alt=''/>
+                          </ImageContainer>
+                          <BrandName>Kassl</BrandName>
+                          <ShortTitle>Square Small Oil Bag</ShortTitle>
+                          <BuyDetails>
+                            <BuyButton>
+                              <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                              <RetailPrice>$300.00</RetailPrice>
+                              <RetailerCredit>Shopbop</RetailerCredit>
+                            </PriceDetails>
+                          </BuyDetails>
+                        </a>
+                    </Product>
+                  </ProductRow>
+                </MultiProductCarousel>
+              </MultiProductContainer>
+            </SectionContainer>
+
             </EditorialContent>
           </MainContent>
         </Article>
