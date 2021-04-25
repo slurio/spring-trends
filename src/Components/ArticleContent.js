@@ -544,6 +544,100 @@ function ArticleContent() {
                 </MultiProductCarousel>
             </MultiProductContainer>
             </SectionContainer>
+
+            <FullReveal>
+                <RevealImageLandscape>
+                <RevealFixedWrap>
+                    <RevealFixed>
+                    <LandscapeImage src='https://www.refinery29.com/images/10414867.jpg' alt='Black background with green letters that say "Supersized Silhouettes."'/>
+                    </RevealFixed>
+                </RevealFixedWrap>
+                </RevealImageLandscape>
+            </FullReveal>
+
+            <FullReveal>
+            <RevealImageLandscape>
+                <RevealFixedWrap>
+                <RevealFixed>
+                    <LandscapeImage src='https://www.refinery29.com/images/10414868.jpg' alt='Sportmax, Isabel Marant, and Louis Vuitton models wearing the SS21 Collection against a black background with green letters that say "Supersized Silhouettes."'/>
+                </RevealFixed>
+                </RevealFixedWrap>
+            </RevealImageLandscape>
+            </FullReveal>
+
+
+            <ContentCaption>
+            <Credit>Photos: Courtesy of Sportmax, Isabel Marant, and Louis Vuitton.</Credit>
+            </ContentCaption>
+            <SectionContainer>
+            <SectionText>If lockdown taught us anything, it’s that we don’t enjoy feeling constricted, be it by the four walls of our abodes or our clothes. In response, we’re seeking out billowy, oversized silhouettes that won’t hold us in.</SectionText>
+            </SectionContainer>
+
+            <SectionContainer>
+            <MultiProductContainer>
+                <MultiProductCarousel>
+                <MultiProductCount>shop 3 products</MultiProductCount>
+                <ProductRow>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://thefrankieshop.com/products/esther-western-pocket-shirt-azure-stripe' target='_blank' rel='nofollow noopener'>
+                        <ImageContainer>
+                        <ProductImage src='https://www.refinery29.com/images/10414383.jpg?crop=5:6' alt='cosstores orange sleeveless t-shirt'/>
+                        </ImageContainer>
+                        <BrandName>The Frankie Shop</BrandName>
+                        <ShortTitle>Esther Western Pocket Shirt</ShortTitle>
+                        <BuyDetails>
+                        <BuyButton>
+                            <span>buy</span>
+                        </BuyButton>
+                        <PriceDetails>
+                            <div>
+                            <RetailPrice>$125.00</RetailPrice>
+                            </div>
+                            <RetailerCredit>The Frankie Shop</RetailerCredit>
+                        </PriceDetails>
+                        </BuyDetails>
+                    </a>
+                    </Product>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://www.matchesfashion.com/us/products/Raey-Wide-leg-wool-blend-trousers-1337077' target='_blank' rel='nofollow noopener'>
+                        <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10414989.png?crop=5:6' alt=''/>
+                        </ImageContainer>
+                        <BrandName>Raey</BrandName>
+                        <ShortTitle>Raey Wide-leg Wool-blend Trousers</ShortTitle>
+                        <BuyDetails>
+                            <BuyButton>
+                            <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                            <RetailPrice>$379.00</RetailPrice>
+                            <RetailerCredit>MatchesFashion</RetailerCredit>
+                            </PriceDetails>
+                        </BuyDetails>
+                        </a>
+                    </Product>
+                    <Product>
+                    <a style={{textDecoration: 'none'}} href='https://shop.mango.com/us/plus-size/jackets-blazers/peak-lapel-suit-blazer_87060515.html' target='_blank' rel='nofollow noopener'>
+                        <ImageContainer>
+                            <ProductImage src='https://www.refinery29.com/images/10415051.png?crop=5:6' alt=''/>
+                        </ImageContainer>
+                        <BrandName>Violeta By Mango</BrandName>
+                        <ShortTitle>Peak Lapel Suit Blazer</ShortTitle>
+                        <BuyDetails>
+                            <BuyButton>
+                            <span>buy</span>
+                            </BuyButton>
+                            <PriceDetails>
+                            <RetailPrice>$119.99</RetailPrice>
+                            <RetailerCredit>Mango</RetailerCredit>
+                            </PriceDetails>
+                        </BuyDetails>
+                        </a>
+                    </Product>
+                </ProductRow>
+                </MultiProductCarousel>
+            </MultiProductContainer>
+            </SectionContainer>
         </>
     )
 }
