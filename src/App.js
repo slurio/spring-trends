@@ -1,7 +1,8 @@
 import React from 'react';
 import NavBar from './Components/NavBar';
 import Header from './Components/Header';
-import ArticleContent from './Components/ArticleContent'
+import ArticleContent from './Components/ArticleContent';
+import Footer from './Components/Footer';
 import styled from 'styled-components';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
               <ArticleContent/>
             </EditorialContent>
           </MainContent>
+          <Footer/>
         </Article>
     </>
   );
