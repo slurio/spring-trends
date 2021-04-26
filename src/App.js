@@ -31,6 +31,7 @@ const Article = styled.div`
   padding: 30px 0 50px;
   max-width: 840px;
   overflow: hidden;
+  padding-bottom: 0px;
 `
 
 const Image = styled.img`

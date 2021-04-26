@@ -19,7 +19,7 @@ function Footer() {
 export default Footer;
 
 const FooterContainer = styled.div`
-    margin-top: 40px;
+    margin-top: 50px;
 `
 
 const ByLine = styled.div`
