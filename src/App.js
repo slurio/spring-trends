@@ -32,6 +32,10 @@ const Article = styled.div`
   max-width: 840px;
   overflow: hidden;
   padding-bottom: 0px;
+  @media (max-width: 1220.98px) {
+    padding: 25px 12px 50px;
+    margin-top: 0;
+  }
 `
 
 const Image = styled.img`

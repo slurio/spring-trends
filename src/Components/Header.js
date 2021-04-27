@@ -36,6 +36,11 @@ const Title = styled.h1`
   padding: 0 30px;
   text-align: center;
   margin-top: 0;
+  @media (max-width: 760.98px) {
+    font-size: 25px;
+    letter-spacing: -.02em;
+    line-height: 1.3em;
+  }
 `
 
 const Paragraph = styled.p`
@@ -47,6 +52,10 @@ const Paragraph = styled.p`
   line-height: 1.5em;
   padding: 0 60px;
   font-weight: 300;
+  @media (max-width: 760.98px) {
+    font-size: 20px;
+    padding: 0 30px;
+  }
 `
 
 const Author = styled.div`
