@@ -9,7 +9,11 @@ function NavBar() {
           <ImgDiv></ImgDiv>
         </Logo>
         <NavCategories>
-
+          <NavCategory>
+            <DiscoverCategory>
+              <DiscoverSpan>discover</DiscoverSpan>
+            </DiscoverCategory>
+          </NavCategory>
         </NavCategories>
       </NavigationBar>
       <BackBar></BackBar>
@@ -68,6 +72,32 @@ const NavCategories = styled.ul`
   @media (max-width: 1220.98px) {
     max-width: 403px;
   }
+`
+
+const NavCategory = styled.li`
+  font-family: Brown Bold,sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #fff;
+  text-align: left;
+`
+
+const DiscoverCategory = styled.div`
+  color: #ef4b4b;
+  height: 58px;
+  position: relative;
+  @media (max-width: 1220.98px) {
+    font-size: 12px;
+    padding: 0 5px 0 10px;
+    text-align: center;
+  }
+`
+
+const DiscoverSpan = styled.span`
+  position: relative;
 `
 
 const BackBar = styled.div`
