@@ -66,6 +66,7 @@ const ImgDiv = styled.div`
 `
 
 const NavCategories = styled.ul`
+  display: block;
   padding: 0;
   margin: 0 auto;
   user-select: none;
