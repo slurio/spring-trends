@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 function NavBar() {
   return (
-    <Container>
+    <>
       <NavigationBar>
         <Logo href='https://www.refinery29.com/en-us' title='Refinery29'>
           <ImgDiv></ImgDiv>
@@ -17,32 +17,18 @@ function NavBar() {
         </NavCategories>
       </NavigationBar>
       <BackBar></BackBar>
-
-    </Container>
+    </>
   );
 }
 
 export default NavBar;
 
-const Container = styled.div`
+const NavigationBar = styled.div`
   height: 58px;
   position: relative;
-  @media (max-width: 1220.98px) and (min-width: 761px) {
-    max-width: 1100px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-`
-
-const NavigationBar = styled.div`
-    display: inline-block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    text-align: center;
-    z-index: 300;
-    border: red 1px solid;
+  border: red 1px solid;
+  padding-left: 30px;
+  padding-right: 30px;
 `
 
 const Logo = styled.a`
